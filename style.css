@@ -1,0 +1,92 @@
+:root {
+    --cor01:#051016;
+    --cor02:#183749;
+    --cor03: #405B66;
+    --cor04: #FFFFFF;
+    --fonte-especial: Cola;
+    --fonte-padrao: "Oxanium", serif;
+}
+@font-face {
+    font-family:Cola;
+    src: url(fontes/Colagraph8-7-Regular.ttf) format(truetype); 
+}
+body {
+    background-color: var(--cor04);
+    height: 100px;
+    background-color: #051016a9;
+}
+header {
+    background-color: var(--cor03);
+    height: 100%;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.486);
+}
+ header h1 {
+    font-family: var(--fonte-especial);
+    font-size: 4em;
+}
+main {
+    background-color: var(--cor02);
+    color: var(--cor04);
+    text-align: justify;
+    text-align: center;
+    line-height: 24px;
+}
+main h1 {
+     background: radial-gradient(circle, rgba(9,9,9,0.989233193277311) 48%, rgba(65,123,205,0.9612219887955182) 90%);
+}
+main a {
+    text-decoration: none;
+    color: var(--cor04);
+}
+main a:hover {
+    color: blue;
+}
+nav {
+    background-color: var(--cor01);
+    height: 25px;
+    height: 50%;
+}
+nav a {
+    color: var(--cor04);
+    text-decoration: none;
+     padding: 70px;
+    text-align: center;
+}
+nav a:hover {
+ color: blue;
+}
+
+aside {
+    background-color: var(--cor02);
+    height: 100px;
+    color: var(--cor04);
+    text-align: justify;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 20px;
+    border-style:hidden;
+}
+aside a {
+    text-decoration: none;
+    color: var(--cor04);
+}
+aside a:hover {
+    color: blue;
+}
+aside h1 {
+     background: radial-gradient(circle, rgba(9,9,9,0.989233193277311) 48%, rgba(65,123,205,0.9612219887955182) 90%);
+}
+footer {
+    background-color: var(--cor01);
+    color: var(--cor04);
+    margin-bottom:40%;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
