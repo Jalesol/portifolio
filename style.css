@@ -30,6 +30,8 @@ main {
     text-align: justify;
     text-align: center;
     line-height: 24px;
+    margin: auto;
+   padding-top: 40px;
 }
 main h1 {
      background: radial-gradient(circle, rgba(9,9,9,0.989233193277311) 48%, rgba(65,123,205,0.9612219887955182) 90%);
@@ -49,8 +51,7 @@ nav {
 nav a {
     color: var(--cor04);
     text-decoration: none;
-     padding: 70px;
-    text-align: center;
+     padding: 20px;
 }
 nav a:hover {
  color: blue;
@@ -58,13 +59,11 @@ nav a:hover {
 
 aside {
     background-color: var(--cor02);
-    height: 100px;
     color: var(--cor04);
     text-align: justify;
     text-align: center;
-    line-height: 24px;
-    border-radius: 20px;
-    border-style:hidden;
+    line-height: 19px;
+    padding: 1px;
 }
 aside a {
     text-decoration: none;
